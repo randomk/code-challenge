@@ -6,22 +6,22 @@ Você está participando da rodada de contratação da Emprego Ligado, esse test
 
 Bem, você pode enviar o link de uma Pull Request com uma contribuição sua para qualquer projeto OpenSource ou algum projeto próprio que você acredita que demonstre o seu nível técnico e a qualidade do seu código. Projetos próprios sem cobertura de testes, sem documentação ou sem integração contínua não serão considerados
 
-Mas caso você prefira/deseje fazer o nosso teste técnico, você pode utilizar qualquer lib/gem ou framework, mas quanto mais codigo seu for utilizado (leia-se não gerado automaticamentes por frameworks) melhor você poderá ser avaliado.
+Mas caso você prefira/deseje fazer o nosso teste técnico, você pode utilizar qualquer lib/gem ou framework, mas quanto mais código seu for utilizado (leia-se não gerado automaticamente por frameworks), melhor você poderá ser avaliado.
 
 ## Pré requisitos
 
-O seu teste deve ter um REAMDE com os passos necessários para:
+O seu teste deve ter um README com os passos necessários para:
 - Rodar o projeto;
 - Instalar as dependências (de preferência utilizando `docker-compose`);
 - Rodar os testes automatizados;
 
 ### Tecnologia
 
-- Aceitaremos soluções escritas em Ruby ou Go, ou ambas;
+- Aceitaremos soluções escritas em Ruby, Go ou ambas;
 
 ## Instruções
 
-Crie uma (ou mais) branch(es) neste repositório e cria a solução nela. Não temos um limite para entregar o teste, faça no seu tempo, se antes de finalizar achar que tem o suficiente para avaliarmos seu trabalho, faça uma Pull Request (PR) de volta para a master e nos avise que avaliamos todas as submissões;
+Crie uma (ou mais) branch(es) neste repositório e cria a solução nela. Não temos um prazo de entrega, faça no seu tempo! Se você achar que tem o suficiente para avaliarmos seu trabalho antes mesmo de finalizar, faça uma Pull Request (PR) de volta para a master e nos avise que avaliamos todas as submissões.
 
 ## Requisitos
 
@@ -40,11 +40,11 @@ Fica a seu critério escolher a maneira que as aplicações irão se comunicar.
 
 5. A aplicação responsável por coletar os dados do arquivo deve atender as seguintes regras:
   - importar somente jobs onde a data em que irá expirar for maior do que a data da importação;
-  - importar somente 80% do total de jobs listados no arquivo;
+  - importar somente 80% do total de jobs listados no arquivo.
 
 ### Endpoints
 
-Os endpoints disponíveis na aplicação estão listados abaixo, e os classificados como `Protected` devem exigir uma autenticação, mas fica ao seu critério propor qualquer método utilizar.
+Os endpoints disponíveis na aplicação estão listados abaixo. Os classificados como `Protected` devem exigir autenticação, porém o método utilizado fica a seu critério.
 
 #### Jobs
 
@@ -59,15 +59,15 @@ Os endpoints disponíveis na aplicação estão listados abaixo, e os classifica
 - Sua API deve conter os 3 endpoints listados acima
 - Sua API deve retornar **JSON** válidos em qualquer endpoint;
 - Seu projeto deve ter uma suíte de testes automatizados, quanto maior a cobertura melhor;
-- Não  necessário utilizar UI;
+- Não é necessário UI;
 - Qualidade da abstração da solução;
-- Estrutura do código, e qualidade dos testes unitários;
-- Projeto rodando dentro de um container;
+- Estrutura do código e qualidade dos testes unitários;
+- Projeto rodando dentro de um container.
 
 *Bonus points:*
 - Ter configurado no projeto qualquer serviço de integração contínua;
 - Conseguir levantar toda a solução com um simples `docker-compose up`;
 - Utilizar message queue;
-- Suas respostas durante o Code Review
-- Seguir o guia de estilo padrão de mercado para a linguagem que você escolher usar
+- Suas respostas durante o Code Review;
+- Seguir o guia de estilo padrão de mercado para a linguagem que você escolher usar;
 - Um histórico do git (mesmo que breve) com mensagens claras e concisas.
