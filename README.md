@@ -1,6 +1,6 @@
-# Backend Engineer Code Challenge - Emprego Ligado
+# Backend Engineer Code Challenge - Levee
 
-Através desse desafio, queremos conhecer suas habildades de desenvolvimento e principalmente como você resolve problemas.
+Através desse desafio, queremos conhecer suas habilidades de desenvolvimento e principalmente como você resolve problemas.
 
 
 ## Sem tempo para realizar o desafio?
@@ -14,7 +14,7 @@ Temos um subset de dados com algumas vagas de emprego separadas por categoria (a
 
 ```
 partnerId|title|categoryId|ExpiresAt
-1123|Vendedor|3|21/1/2017
+1123|Vendedor|3|21/1/2018
 ```
 
 Baseando-se nesses dados, queremos que você crie 2 aplicações:
@@ -80,6 +80,5 @@ Queremos ver como você resolve o problema proposto e suas habilidades com as te
 Para nos enviar seu código, você pode:
 
 - Fazer um fork desse repositório e nos mandar um pull request.
-- Nos dar acesso ao seu repositório no github, bitbucket ou gitlab. Adicione o usuário dcassiano.
-- Se precisar falar com a gente: engenheria@empregoligado.com.br.
-
+- Nos dar acesso ao seu repositório no github, bitbucket ou gitlab. Adicione o usuário bonigauglitz.
+- Se precisar falar com a gente: engenheria@levee.com.br.
