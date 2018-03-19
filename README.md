@@ -60,7 +60,7 @@ O seu teste deve ter um README com os passos necessários para:
 
 ### Tecnologia
 
-Ruby ou Go.
+Ruby, Go ou Python.
 
 ### Gostamos de:
 
