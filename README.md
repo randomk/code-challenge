@@ -54,7 +54,6 @@ Os endpoints disponíveis na aplicação estão listados abaixo. Os classificado
 
 O seu teste deve ter um README com os passos necessários para:
 
-- Commits estruturados;
 - Rodar o projeto;
 - Instalar as dependências;
 - Rodar os testes automatizados.
@@ -63,13 +62,15 @@ O seu teste deve ter um README com os passos necessários para:
 
 Ruby ou Go.
 
-### Bônus hints:
+### Gostamos de:
 
-- Gostamos de testes;
-- Gostamos de Docker;
-- Gostamos de CI;
-- Message queues são legais;
-- Documentação é vida.
+- Commits estruturados;
+- Documentação;
+- Testes;
+- Docker;
+- CI;
+- Message queues.
+
 
 ## O que está sendo avaliado
 
